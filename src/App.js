@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
+import Services from './pages/Services';
+import About from './pages/About';
+import News from './pages/News';
+import Contact from './pages/Contact';
+
 
 function App() {
+  useEffect(() => {
+    AOS.init(
+      {
+        once: true,
+        duration: 2000,
+      }
+    );
+  }, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="overflow-hidden">
+      <Routes>
+        <Route path='/' element={<Services/>} />
+        <Route path='/About' element={<About />} />
+        <Route path='/News' element={<News />} />
+        <Route path='/Contact' element={<Contact />} />
+      </Routes>
     </div>
   );
 }
