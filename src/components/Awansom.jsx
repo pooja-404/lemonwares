@@ -8,7 +8,7 @@ const Awansom = () => {
         <>
             <div className='max-w-[1232px] mx-auto px-3 rounded-[16px] bg-[#F7FAFE] pt-10 pb-20 mb-16 md:mb-28 md:mt-20 mt-5 relative' data-aos="zoom-in-down">
                 <div>
-                    <h2 className='font-poppins text-4xl md:text-[64px]  text-[#2E2E2E] text-center max-w-[1042px] mx-auto py-10 leading-[88px] font-semibold' data-aos="zoom-in">We're here to make your website awesome.</h2>
+                    <h2 className='font-poppins text-4xl md:text-[64px]  text-[#2E2E2E] text-center max-w-[1042px] mx-auto py-10 md:leading-[88px] leading-[50px] font-semibold' data-aos="zoom-in">We're here to make your website awesome.</h2>
                 </div>
                 <div className='flex items-center gap-2 mx-auto bg-[#B00000] p-[12px_16px_11px_16px] max-w-[200px]  relative h-[50px] min-w-40  justify-center overflow-hidden  text-[14px]  text-black rounded-[8px]   transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#000000] hover:border-[transparent] before:duration-500 before:ease-out hover:text-[white] hover:border-0 hover:shadow-[0px_0px_64px_0px_#B000004D] hover:before:h-56 hover:before:w-56' data-aos="zoom-in-up">
                     <span className='relative flex items-center gap-3'>

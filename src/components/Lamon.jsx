@@ -230,7 +230,7 @@ const Lamon = () => {
                     </p>
                     <div className="flex justify-center ml-auto items-center">
                     </div>
-                    <div className="lg:pt-[57px] md:pt-2 sm:pt-4 mt-6  flex items-center lg:mb-[85px] md:mb-18 sm:mb-10 mb-8 justify-center">
+                    <div className="lg:pt-[57px] md:pt-2 sm:pt-4 mt-6  flex items-center  md:mb-18 sm:mb-10 mb-8 justify-center">
                         <p className=" text-black font-poppins md:text-[25px] text-[20px] font-normal leading-[100%] ">
                             Monthly
                         </p>

@@ -62,7 +62,7 @@ const Navsec = () => {
                                 </Link>
                             </li>
                             <li className=" md:hidden block ">
-                                <a href="" className=" font-poppins text-[#000] text-[13px] sm:text-[15px] font-semibold ">
+                                <a href="" className=" font-poppins text-[#000] text-[13px] sm:text-[15px] font-semibold relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%] ">
                                     Account
                                 </a>
                             </li>
@@ -93,7 +93,7 @@ const Navsec = () => {
                         </ul>
                         <div className="md:block  hidden">
                             <div className="flex items-center gap-2 sm:gap-6   ">
-                                <a href="" className=" font-poppins text-[#000] text-[13px] sm:text-[15px] font-semibold  ">
+                                <a href="" className=" font-poppins text-[#000] text-[13px] sm:text-[15px] font-semibold relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%]  ">
                                     Account
                                 </a>
                                 <div className="bg-[#DAD8D8] h-[19px] w-[1px]"></div>

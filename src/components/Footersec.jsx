@@ -152,7 +152,7 @@ const Footersec = () => {
                         </div>
                     </div>
                 </div>
-                <p className="text-white font-inter text-base leading-[200%] flex items-center gap-1 font-normal" data-aos="fade-up-left">
+                <p className="text-white font-inter text-[13px] md:text-base md:leading-[200%] flex items-center gap-1 font-normal" >
                     Built by Jeremiah with{" "}
                     <sapn className='cursor-pointer' >
                         <svg
