@@ -14,7 +14,7 @@ const Navsec = () => {
     }
     return (
         <>
-            <div className="max-w-[1215px] mx-auto px-3 py-5">
+            <div className="max-w-[1215px] mx-auto pr-3 py-5">
                 <div className="max-w-[1215px] mx-auto px-3 md:py-5 py-2">
                     <div className="flex items-center justify-between">
                         <div className="flex items-center">
