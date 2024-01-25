@@ -154,7 +154,7 @@ const Footersec = () => {
                 </div>
                 <p className="text-white font-inter text-[13px] md:text-base md:leading-[200%] flex items-center gap-1 font-normal" >
                     Built by Jeremiah with{" "}
-                    <sapn className='cursor-pointer' >
+                    <a href="" className='cursor-pointer' >
                         <svg
                             width="24"
                             height="24"
@@ -167,7 +167,7 @@ const Footersec = () => {
                                 fill="white"
                             />
                         </svg>
-                    </sapn>{" "}
+                    </a>{" "}
                     in Lagos. Copyright {year}
                 </p>
             </div>

@@ -51,7 +51,7 @@ const Lamon = () => {
                     {Premium === "tabsecond" && (<div>{myArray.heading3}</div>)}
                 </p>
                 <p className="text-black font-poppins text-[14px] font-[300] pt-[11px] leading-[100%]">
-                    {toggle ? "Per year" : "Per month"} per month
+                    {toggle ? "Per year" : "Per month"}
                 </p>
                 {/* <button className="leading-[ 228.571%] text-nowrap font-semibold text-[14px] font-poppins text-black md::px-14 md:py-[13px] px-12 py-2 border-[2px] border-black rounded-[12px] md:mt-[35px] mt-6">
                 Choose this Plan
