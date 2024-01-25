@@ -12,7 +12,7 @@ const Stories = () => {
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='lg:w-1/2 w-full px-3 flex flex-col lg:items-end'>
                         <div className='relative' data-aos="fade-right">
-                            <img src={colon} alt="colon" className='absolute max-lg:w-[12%]  top-[-32%] xl:left-[-18%] lg:left-[-12%] md:left-[6%]' />
+                            <img src={colon} alt="colon" className='absolute max-md:w-[12%]  sm:top-[-36%] xl:left-[-22%] left-2 top-1 lg:left-[-12%] md:left-[6%]' />
                             <h2 className=' font-inter md:text-[48px] text-3xl font-extrabold text-[#18191F] md:leading-[64px] max-lg:text-center max-lg:mx-auto lg:max-w-[445px] ' >Real Stories from Real Customers</h2>
                             <p className='font-inter text-[18px] font-normal text-[#18191F] max-lg:text-center pt-2' data-aos="fade-right">Get inspired by these stories.</p>
                         </div>

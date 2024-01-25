@@ -231,11 +231,11 @@ const Lamon = () => {
                     <div className="flex justify-center ml-auto items-center">
                     </div>
                     <div className="lg:pt-[57px] md:pt-2 sm:pt-4 mt-6  flex items-center  md:mb-18 sm:mb-10 mb-8 justify-center">
-                        <p className=" text-black font-poppins md:text-[25px] sm:text-[20px] text-[15px] font-normal leading-[100%] ">
+                        <p className=" text-black font-poppins md:text-[25px] sm:text-[20px] text-[15px] font-normal leading-[100%]  ">
                             Monthly
                         </p>
                         <div
-                            className={`relative md:w-[93px] w-[63px] h-[30px] md:h-[50px] ml-8  px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500 ${toggle ? "bg-black" : "bg-[#B00000]"}`}
+                            className={`relative md:w-[93px] w-[63px] h-[30px] md:h-[50px] md:ml-8 ml-3 sm:ml-4   px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500 ${toggle ? "bg-black" : "bg-[#B00000]"}`}
                             onClick={btn}
                         >
                             <div
@@ -243,8 +243,8 @@ const Lamon = () => {
                                     }`}
                             ></div>
                         </div>
-                        <div className="flex fle x md:gap-[17px] gap-2 -sm:pl-2  flex-c ol items-center justify-center">
-                            <p className=" text-black font-poppins   md:pl-7 md:text-[25px] sm:text-[20px] text-[15px] font-normal leading-[100%]">
+                        <div className="flex fle x md:gap-[17px] gap-2 -sm:pl-2  flex-c ol items-center justify-center ">
+                            <p className=" text-black font-poppins   md:pl-7 md:text-[25px] sm:text-[20px] text-[15px] font-normal leading-[100%] ml-1 sm:ml-4">
                                 Yearly
                             </p>
                             < button className="relative flex h-[24px] w-[87px] items-center justify-center overflow-hidden font-poppins text-[10px] font-medium text-black p-[7px_8px] rounded-[8px] bg-[#FFE87A] transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#B00000] hover:border-[transparent] before:duration-500 before:ease-out hover:text-[white] hover:border-0 hover:shadow-[0px_0px_64px_0px_#B000004D] hover:before:h-56 hover:before:w-56" >
