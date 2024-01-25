@@ -4,9 +4,9 @@ const Footersec = () => {
     const date = new Date();
     const year = date.getFullYear();
     return (
-        <div className="bg-[#B00000] pb-20 pt-16">
+        <div className="bg-[#B00000] md:pb-20 pb-8 pt-16">
             <div className="max-w-[1220px] px-3 mx-auto">
-                <div className="flex flex-row flex-wrap -mx-3 pb-[96px]">
+                <div className="flex flex-row flex-wrap -mx-3 md:pb-[96px]">
                     <div className="lg:w-4/12 px-3 w-full" data-aos="fade-down-right">
                         <img src={footlogo} alt="footlogo" className="cursor-pointer" />
                         <p className="text-[#E6E6E6] text-base font-inter leading-[200%] lg:max-w-[296px] pt-6 font-normal">
@@ -152,7 +152,7 @@ const Footersec = () => {
                         </div>
                     </div>
                 </div>
-                <p className="text-white font-inter text-[12px] md:text-base md:leading-[200%] flex items-center gap-0.5 font-normal" >
+                <p className="text-white font-inter text-[12px] sm:text-base md:leading-[200%] flex items-center gap-0.5 font-normal" >
                     Built by Jeremiah with{" "}
                     <a href="" className='cursor-pointer' >
                         <svg

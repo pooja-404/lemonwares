@@ -9,7 +9,7 @@ import cloud from '../assets/images/cloudflareimg.webp'
 const Hosting = () => {
     return (
         <>
-            <div className='max-w-[1284px] mx-auto px-3 py-8 md:py-12'>
+            <div className='max-w-[1284px] mx-auto px-3 pt-8 md:py-12'>
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='lg:w-1/2 w-full px-3'>
                         <h2 className='text-grey-900 font-inter md:text-[48px] font-extrabold max-lg:text-center text-3xl' data-aos="zoom-in-down">True Cloud Web  Hosting</h2>
