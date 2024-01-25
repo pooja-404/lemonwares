@@ -13,7 +13,7 @@ const Stories = () => {
                     <div className='lg:w-1/2 w-full px-3 flex flex-col lg:items-end'>
                         <div className='relative' data-aos="fade-right">
                             <img src={colon} alt="colon" className='absolute top-[-32%] lg:left-[-18%] left-[-3]' />
-                            <h2 className=' font-inter md:text-[48px] text-3xl font-extrabold text-[#18191F] md:leading-[64px] max-lg:text-center max-lg:mx-auto' >Real Stories from Real Customers</h2>
+                            <h2 className=' font-inter md:text-[48px] text-3xl font-extrabold text-[#18191F] md:leading-[64px] max-lg:text-center max-lg:mx-auto lg:max-w-[445px]' >Real Stories from Real Customers</h2>
                             <p className='font-inter text-[18px] font-normal text-[#18191F] max-lg:text-center pt-2' data-aos="fade-right">Get inspired by these stories.</p>
                         </div>
                         <div className='rounded-[8px] shadow-[0px_10px_20px_0px_#29292A12] p-[7px_32px_96px_64px] lg:max-w-[350px] lg:mt-16 mt-8 relative' data-aos="fade-up"
@@ -26,7 +26,7 @@ const Stories = () => {
                         </div>
                     </div>
                     <div className='lg:w-1/2 w-full px-3 lg:pt-8'>
-                        <div className='rounded-[8px] shadow-[0px_10px_20px_0px_#29292A12] p-[39px_32px_14px_64px] lg:max-w-[445px] lg:mt-16 mt-8 relative' data-aos="fade-up"
+                        <div className='rounded-[8px] shadow-[0px_10px_20px_0px_#29292A12] p-[39px_32px_14px_64px] lg:max-w-[445px] lg:mt-9 mt-8 relative' data-aos="fade-up"
                             data-aos-anchor-placement="center-center">
                             <img src={skoma} alt="skoma" className='absolute top-[34%] left-[8%]' />
                             <img src={jpnl} alt="cli" />
