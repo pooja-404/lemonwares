@@ -24,7 +24,6 @@ const Preloder = () => {
                     <div class="relative flex justify-center items-center">
                         <div className="absolute animate-spin rounded-full h-32 w-32 border-t-4 border-b-4 border-[#B00000]"></div>
                         <img src={preloder} alt="cpanel" className="rounded-full h-20 w-20" />
-
                     </div>
                 
                 </section>

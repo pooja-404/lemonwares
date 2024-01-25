@@ -71,9 +71,9 @@ const Premium = () => {
                     </div>
                     <div className='lg:w-1/2 w-full px-3 pt-16 lg:pt-0 flex items-center justify-center relative' data-aos="zoom-in-up" data-aos-delay="1000">
                         <img src={headerimg} alt="headerimg" className='w-[90%] lg:w-[80%]' data-aos="zoom-in" />
-                        <img src={ellipse1} alt="headerimg" className='absolute top-[61%] lg:left-[8%] left-0' />
-                        <img src={ellipse2} alt="headerimg" className='absolute top-[12%] lg:right-[8%] right-0' />
-                        <img src={ellipse3} alt="headerimg" className='absolute top-[77%] lg:right-[8%] right-0' />
+                        <img src={ellipse1} alt="headerimg" className='absolute top-[61%] lg:left-[8%] left-[5%]' />
+                        <img src={ellipse2} alt="headerimg" className='absolute top-[12%] lg:right-[8%] right-[5%]' />
+                        <img src={ellipse3} alt="headerimg" className='absolute top-[77%] lg:right-[8%] right-[5%]' />
                     </div>
                 </div>
             </div>

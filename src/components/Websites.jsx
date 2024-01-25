@@ -16,7 +16,7 @@ const Websites = () => {
                             Nigerian Websites</h2>
                         <p className='text-[18px] font-normal font-inter text-black lg:max-w-[445px] max-lg:text-center pt-3' data-aos="fade-right">Connect LemonWares with your favourite tools that you use daily and keep things on track.</p>
                     </div>
-                    <div className='lg:w-1/2 px-3 pt-7 flex justify-end'>
+                    <div className='lg:w-1/2 px-3  flex justify-end'>
                         <div className='flex flex-wrap flex-row -mx-3'>
                             <div className='w-1/3 px-3 flex items-center justify-center'>
                                 <div className='max-w-[172px] h-[92px]'>
