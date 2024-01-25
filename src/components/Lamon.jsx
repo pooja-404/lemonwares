@@ -51,7 +51,7 @@ const Lamon = () => {
                     {Premium === "tabsecond" && (<div>{myArray.heading3}</div>)}
                 </p>
                 <p className="text-black font-poppins text-[14px] font-[300] pt-[11px] leading-[100%]">
-                    {toggle?"Per year":"Per month"} per month
+                    {toggle ? "Per year" : "Per month"} per month
                 </p>
                 {/* <button className="leading-[ 228.571%] text-nowrap font-semibold text-[14px] font-poppins text-black md::px-14 md:py-[13px] px-12 py-2 border-[2px] border-black rounded-[12px] md:mt-[35px] mt-6">
                 Choose this Plan
@@ -235,7 +235,7 @@ const Lamon = () => {
                             Monthly
                         </p>
                         <div
-                            className={`relative md:w-[93px] w-[63px] h-[30px] md:h-[50px] ml-8 px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500  ${toggle ? "bg-[#B00000]" :"bg-yellow-400"}`}
+                            className={`relative md:w-[93px] w-[63px] h-[30px] md:h-[50px] ml-8 px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500  ${toggle ? "bg-yellow-400" : " bg-[#B00000]"}`}
                             onClick={btn}
                         >
                             <div
