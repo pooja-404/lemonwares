@@ -235,15 +235,15 @@ const Lamon = () => {
                             Monthly
                         </p>
                         <div
-                            className={`relative md:w-[93px] w-[63px] h-[30px] md:h-[50px] ml-8 px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500  ${toggle ? "bg-yellow-400" : " bg-[#B00000]"}`}
+                            className={`relative md:w-[93px] w-[63px] h-[30px] md:h-[50px] ml-8  px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500 ${toggle ? "bg-black" : "bg-[#B00000]"}`}
                             onClick={btn}
                         >
                             <div
-                                className={`bg-white md:h-[30px] h-[20px] md:w-[30px] w-[20px] max-md:top-[20%] absolute rounded-full duration-500 transition-all ${toggle ? "right-[10%]" : "left-[10%]"
+                                className={`bg-white md:h-[30px] h-[20px] md:w-[30px] w-[20px] max-md:top-[20%] absolute rounded-full duration-500 transition-all ${toggle ? "right-[10%]" : "right-[59%]"
                                     }`}
                             ></div>
                         </div>
-                        <div className="flex fle x md:gap-[17px] gap-2 pl-2  flex-c ol items-center justify-center">
+                        <div className="flex fle x md:gap-[17px] gap-2 -sm:pl-2  flex-c ol items-center justify-center">
                             <p className=" text-black font-poppins   md:pl-7 md:text-[25px] sm:text-[20px] text-[15px] font-normal leading-[100%]">
                                 Yearly
                             </p>
