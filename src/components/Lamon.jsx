@@ -33,22 +33,22 @@ const Lamon = () => {
     }
 
     const data = myArray.map((myArray, i) => (
-        <div className="lg:w-1/3 sm:w-1/2 w-full px-3  justify-center flex mb-5 " >
+        <div className="lg:w-1/3 sm:w-1/2 w-full px-3  justify-center flex mb-5 " key={i} >
             <div
                 className="card max-w-[299px] w-full rounded-[15px] max-lg:mt-3 border-[1.5px] border-[#C4C4C4] shadow-[0px_0px_4px_0px_#00000040_inset] bg-white md:pt-[34px] sm:pt-7 pt-6 md:pb-12 sm:pb-10 pb-8 md:pl-[35px] pl-7 md:pr-[28px] pr-5" data-aos="flip-right" data-aos-easing="linear"
                 data-aos-duration="1000"
             >
                 <p className="text-black font-poppins text-[28px] font-semibold leading-[89.286%]">
-                    {Premium === "tabone" && (<div>{myArray.heading}</div>)}
-                    {Premium === "tabsecond" && (<div>{myArray.heading4}</div>)}
+                    {Premium === "tabone" && (<span>{myArray.heading}</span>)}
+                    {Premium === "tabsecond" && (<span>{myArray.heading4}</span>)}
                 </p>
                 <p className="md:pt-[11px] sm:pt-2 pt-1 text-black text-xs font-normal leading-[150%] max-w-[237px] font-poppins">
                     with all your customers via all conversation channels in one
                     central dashboard.
                 </p>
                 <p className="font-poppins text-black md:text-[42px] text-3xl font-semibold leading-[76.19%] md:pt-7 sm:pt-5 pt-4">
-                    {Premium === "tabone" && (<div>{myArray.heading2}</div>)}
-                    {Premium === "tabsecond" && (<div>{myArray.heading3}</div>)}
+                    {Premium === "tabone" && (<span>{myArray.heading2}</span>)}
+                    {Premium === "tabsecond" && (<span>{myArray.heading3}</span>)}
                 </p>
                 <p className="text-black font-poppins text-[14px] font-[300] pt-[11px] leading-[100%]">
                     {toggle ? "Per year" : "Per month"}
@@ -57,8 +57,8 @@ const Lamon = () => {
                 Choose this Plan
               </button> */}
                 <div className="flex justify-center">
-                    < button class="relative flex h-[50px] w-[235px]  items-center justify-center overflow-hidden font-poppins text-[14px] font-semibold text-black text-nowrap rounded-[12px] border-[2px] mt-9   border-solid border-[#000000]  transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:!bg-[#B00000] hover:border-[2px] hover:solid hover:!border-[transparent] before:duration-500 before:ease-out hover:text-[white] p-[14px_60px] hover:shadow-[0px_0px_64px_0px_#B000004D] hover:before:w-56 hover:before:h-56 " >
-                        <span class="relative z-10">Choose this Plan</span>
+                    < button className="relative flex h-[50px] w-[235px]  items-center justify-center overflow-hidden font-poppins text-[14px] font-semibold text-black text-nowrap rounded-[12px] border-[2px] mt-9   border-solid border-[#000000]  transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:!bg-[#B00000] hover:border-[2px] hover:solid hover:!border-[transparent] before:duration-500 before:ease-out hover:text-[white] p-[14px_60px] hover:shadow-[0px_0px_64px_0px_#B000004D] hover:before:w-56 hover:before:h-56 " >
+                        <span className="relative z-10">Choose this Plan</span>
                     </button >
                 </div>
                 <div className="flex items-center md:pt-[35px] pt-7 pb-2 md:pb-4">
@@ -219,7 +219,7 @@ const Lamon = () => {
     ))
 
     return (
-        <div className=" lg:pt-32 md:pt-20 sm:pt-12 pt-5">
+        <div className=" lg:pt-32 md:pt-20 sm:pt-12 pt-5 overflow-x-clip">
             <div className="container max-w-[1097px] mx-auto px-3">
                 <div className="flex justify-center flex-col">
                     <h2 className="text-black font-poppins text-center mx-auto md:text-[50px] md:!leading-[60px]  sm:text-4xl text-3xl font-semibold  lg:max-w-[650px] ">

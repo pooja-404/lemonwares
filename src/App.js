@@ -20,7 +20,7 @@ function App() {
     );
   }, [])
   return (
-    <div className="overflow-hidden">
+    <div>
       <Routes>
         <Route path='/' element={<Services/>} />
         <Route path='/About' element={<About />} />

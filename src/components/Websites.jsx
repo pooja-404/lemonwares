@@ -8,7 +8,7 @@ import pic6 from '../assets/images/clii.png'
 
 const Websites = () => {
     return (
-        <>
+        <div className='overflow-x-clip'>
             <div className='max-w-[1194px] mx-auto px-3 py-12 md:py-20'>
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='lg:w-1/2 px-3 w-full'>
@@ -52,7 +52,7 @@ const Websites = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

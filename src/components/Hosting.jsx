@@ -8,7 +8,7 @@ import cloud from '../assets/images/cloudflareimg.webp'
 
 const Hosting = () => {
     return (
-        <>
+        <div className='overflow-x-clip'>
             <div className='max-w-[1284px] mx-auto px-3 pt-8 md:py-12'>
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='lg:w-1/2 w-full px-3'>
@@ -54,7 +54,7 @@ const Hosting = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
