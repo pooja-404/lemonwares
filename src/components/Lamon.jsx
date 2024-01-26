@@ -219,7 +219,7 @@ const Lamon = () => {
     ))
 
     return (
-        <div className=" lg:pt-32 md:pt-20 sm:pt-12 pt-5 overflow-x-clip">
+        <div className=" lg:pt-24 md:pt-20 sm:pt-12 pt-5 overflow-x-clip">
             <div className="container max-w-[1097px] mx-auto px-3">
                 <div className="flex justify-center flex-col">
                     <h2 className="text-black font-poppins text-center mx-auto md:text-[50px] md:!leading-[60px]  sm:text-4xl text-3xl font-semibold  lg:max-w-[650px] ">
