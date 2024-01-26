@@ -6,7 +6,7 @@ import ellipse3 from '../assets/images/ellipse3.png'
 const Awansom = () => {
     return (
         <div className='overflow-x-clip'>
-            <div className='max-w-[1232px] mx-auto px-3 rounded-[16px] bg-[#F7FAFE] pt-10 pb-20 mb-16 md:mb-28 md:mt-20 mt-5 relative' data-aos="zoom-in-down">
+            <div className='max-w-[1232px] mx-auto px-3 rounded-[16px] bg-[#F7FAFE] pt-10 pb-20 mb-10 md:mb-28 md:mt-20 mt-5 relative' data-aos="zoom-in-down">
                 <div>
                     <h2 className='font-poppins text-4xl md:text-[64px]  text-[#2E2E2E] text-center max-w-[1042px] mx-auto py-10 md:leading-[88px] leading-[50px] font-semibold' data-aos="zoom-in">We're here to make your website awesome.</h2>
                 </div>

@@ -8,7 +8,7 @@ import leevon from '../assets/images/leeve.png'
 const Stories = () => {
     return (
         <div className='overflow-x-clip'>
-            <div className='max-w-[1194px] mx-auto px-3 md:pt-28 pt-16'>
+            <div className='max-w-[1194px] mx-auto px-3 md:pt-28 pt-10'>
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='lg:w-1/2 w-full px-3 flex flex-col lg:items-end'>
                         <div className='relative' data-aos="fade-right">

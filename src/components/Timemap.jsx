@@ -47,7 +47,7 @@ const Timemap = () => {
     ));
     return (
         <div className='overflow-x-clip'>
-            <div className='max-w-[1284px] mx-auto px-3b py-8 md:py-16'>
+            <div className='max-w-[1284px] mx-auto px-3b py-6 md:py-16'>
                 <div className='flex flex-wrap flex-row -mx-3 justify-center'>
                     {list}
                 </div>

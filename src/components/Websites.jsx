@@ -9,7 +9,7 @@ import pic6 from '../assets/images/clii.png'
 const Websites = () => {
     return (
         <div className='overflow-x-clip'>
-            <div className='max-w-[1194px] mx-auto px-3 py-12 md:py-20'>
+            <div className='max-w-[1194px] mx-auto px-3 py-10 md:py-20'>
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='lg:w-1/2 px-3 w-full'>
                         <h2 className='font-inter font-extrabold md:text-[48px] text-3xl text-black lg:max-w-[445px] max-lg:text-center flex-none md:leading-[64px]' data-aos="fade-right">We serve over 100
