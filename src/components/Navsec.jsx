@@ -7,15 +7,10 @@ const Navsec = () => {
     function nav() {
         setshow(!show);
         document.body.classList.toggle("max-lg:!overflow-hidden")
-        // if (show === true) {
-        //     document.body.classList.add("max-lg:overflow-hidden");
-        // } else {
-        //     document.body.classList.remove("max-lg:overflow-hidden");
-        // }
     }
     return (
         <>
-            <div className="max-w-[1215px] mx-auto pr-3 py-5">
+            <div className="max-w-[1215px] mx-auto pr-3 md:py-5 py-3">
                 <div className="max-w-[1215px] mx-auto px-3 md:py-5 py-2">
                     <div className="flex items-center justify-between">
                         <div className="flex items-center">

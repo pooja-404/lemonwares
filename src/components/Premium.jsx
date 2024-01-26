@@ -12,7 +12,7 @@ const Premium = () => {
     };
     return (
         <div className='overflow-x-clip'>
-            <div className='max-w-[1215px] mx-auto px-3 md:py-12 py-7'>
+            <div className='max-w-[1215px] mx-auto px-3 md:py-12 py-5'>
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='lg:w-1/2 w-full px-3 md:pt-8 lg:pt-0 max-lg:text-center' data-aos-delay="2000">
                         <div className='flex max-lg:justify-center gap-5 relative after:absolute after:w-[232px] after:h-[1px] after:bg-[#E5E5E5] after:bottom-[-12%]  '>
