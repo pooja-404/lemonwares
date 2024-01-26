@@ -53,9 +53,6 @@ const Lamon = () => {
                 <p className="text-black font-poppins text-[14px] font-[300] pt-[11px] leading-[100%]">
                     {toggle ? "Per year" : "Per month"}
                 </p>
-                {/* <button className="leading-[ 228.571%] text-nowrap font-semibold text-[14px] font-poppins text-black md::px-14 md:py-[13px] px-12 py-2 border-[2px] border-black rounded-[12px] md:mt-[35px] mt-6">
-                Choose this Plan
-              </button> */}
                 <div className="flex justify-center">
                     < button className="relative flex h-[50px] w-[235px]  items-center justify-center overflow-hidden font-poppins text-[14px] font-semibold text-black text-nowrap rounded-[12px] border-[2px] mt-9   border-solid border-[#000000]  transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:!bg-[#B00000] hover:border-[2px] hover:solid hover:!border-[transparent] before:duration-500 before:ease-out hover:text-[white] p-[14px_60px] hover:shadow-[0px_0px_64px_0px_#B000004D] hover:before:w-56 hover:before:h-56 " >
                         <span className="relative z-10">Choose this Plan</span>
@@ -235,7 +232,7 @@ const Lamon = () => {
                             Monthly
                         </p>
                         <div
-                            className={`relative md:w-[93px] w-[63px] h-[30px] md:h-[50px] md:ml-8 ml-3 sm:ml-4   px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500 ${toggle ? "bg-black" : "bg-[#B00000]"}`}
+                            className={`relative md:w-[93px] w-[63px] h-[30px] md:h-[50px] md:ml-8 ml-2 sm:ml-4   px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500 ${toggle ? "bg-black" : "bg-[#B00000]"}`}
                             onClick={btn}
                         >
                             <div
@@ -244,7 +241,7 @@ const Lamon = () => {
                             ></div>
                         </div>
                         <div className="flex fle x md:gap-[17px] gap-2 -sm:pl-2  flex-c ol items-center justify-center ">
-                            <p className=" text-black font-poppins   md:pl-7 md:text-[25px] sm:text-[20px] text-[15px] font-normal leading-[100%] ml-1 sm:ml-4">
+                            <p className=" text-black font-poppins   md:pl-7 md:text-[25px] sm:text-[20px] text-[15px] font-normal leading-[100%] ml-2 sm:ml-4">
                                 Yearly
                             </p>
                             < button className="relative flex h-[24px] w-[87px] items-center justify-center overflow-hidden font-poppins text-[10px] font-medium text-black p-[7px_8px] rounded-[8px] bg-[#FFE87A] transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#B00000] hover:border-[transparent] before:duration-500 before:ease-out hover:text-[white] hover:border-0 hover:shadow-[0px_0px_64px_0px_#B000004D] hover:before:h-56 hover:before:w-56" >
