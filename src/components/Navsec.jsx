@@ -6,12 +6,12 @@ const Navsec = () => {
     const [show, setshow] = useState(true);
     function nav() {
         setshow(!show);
-        document.body.classList.toggle("max-lg:!overflow-hidden")
+        document.body.classList.toggle("max-lg:overflow-hidden")
     }
     return (
         <>
-            <div className="max-w-[1215px] mx-auto pr-3 md:py-5 py-3">
-                <div className="max-w-[1215px] mx-auto px-3 md:py-5 py-2">
+            <div className="max-w-[1215px] mx-auto px-3 py-3 md:py-5">
+                <div className="max-w-[1215px] mx-auto  md:py-5 ">
                     <div className="flex items-center justify-between">
                         <div className="flex items-center">
                             <Link to={"/"}> <img src={logo} alt="logo" /></Link>

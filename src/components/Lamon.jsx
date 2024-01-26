@@ -236,7 +236,7 @@ const Lamon = () => {
                             onClick={btn}
                         >
                             <div
-                                className={`bg-white md:h-[30px] h-[20px] md:w-[30px] w-[20px] max-md:top-[20%] absolute rounded-full duration-500 transition-all ${toggle ? "right-[10%]" : "right-[59%]"
+                                className={`bg-white md:h-[30px] h-[20px] md:w-[30px] w-[20px] max-md:top-[16%] absolute rounded-full duration-500 transition-all ${toggle ? "right-[10%]" : "right-[59%]"
                                     }`}
                             ></div>
                         </div>
@@ -255,8 +255,7 @@ const Lamon = () => {
                                 ? "after:bg-[#B00000] after:w-full after:h-1 after:absolute after:bottom-[-4px] after:z-[2] after:left-0"
                                 : ""
                                 }`}
-                            onClick={() => latest("tabone")}
-                        >
+                            onClick={() => latest("tabone")} >
                             Basic
                         </p>
                         <p
