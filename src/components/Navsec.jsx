@@ -10,7 +10,7 @@ const Navsec = () => {
     }
     return (
         <>
-            <div className="max-w-[1215px] mx-auto px-3 py-3 md:py-5">
+            <div className="max-w-[1215px] mx-auto px-3 pr-3 py-3 md:py-5 ">
                 <div className="max-w-[1215px] mx-auto  md:py-5 ">
                     <div className="flex items-center justify-between">
                         <div className="flex items-center">
@@ -87,7 +87,7 @@ const Navsec = () => {
                                 </a>
                             </li>
                         </ul>
-                        <div className="md:block  hidden">
+                        <div className="md:block  hidden mr-[98px]">
                             <div className="flex items-center gap-2 sm:gap-6   ">
                                 <a href="" className=" font-poppins text-[#000] text-[13px] sm:text-[15px] font-semibold relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%]  ">
                                     Account
