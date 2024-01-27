@@ -6,7 +6,7 @@ const Navsec = () => {
     const [show, setshow] = useState(true);
     function nav() {
         setshow(!show);
-        document.body.classList.toggle("max-lg:overflow-hidden")
+        document.body.classList.toggle("max-lg:!overflow-hidden")
     }
     return (
         <>

@@ -26,7 +26,7 @@ const Premium = () => {
                             <h2 className='text-4xl  leading:[76.5px] md:text-[64px] font-poppins font-bold text-[#2E2E2E] lg:max-w-[608px] md:leading-[77.5px] text-center lg:text-start pt-4'>Premium Web Hosting for Your Website</h2>
                             <p className=' font-inter text-[#808080] text-[16px] font-normal lg:max-w-[408px] md:pt-10 pt-5 text-center lg:text-start'>Blazing fast web hosting for individuals and businesses of all sizes backed by 24x7x365 Support.</p>
                             <div className=' flex gap-5 md:pt-14 pt-8 max-lg:justify-center'>
-                                <button className='text-white text-nowrap sm:text-[14px] text-[13px]  font-normal font-poppins p-[12px] rounded-[8px] bg-[#B00000] shadow-[0px_0px_64px_0px_#B000004D]'>Create an Account</button>
+                                <button className='text-white text-nowrap sm:text-[14px] text-[13px]   font-normal font-poppins p-[13px] rounded-[8px] bg-[#B00000] shadow-[0px_0px_64px_0px_#B000004D]'>Create an Account</button>
                                 <button className="relative flex h-[50px] w-40 items-center justify-center overflow-hidden font-poppins sm:text-[14px] text-[13px]  font-normal text-black p-[12px] rounded-[8px] border-[1px] border-solid border-[#000000]  transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#B00000] hover:border-[transparent] before:duration-500 before:ease-out hover:text-[white] hover:border-0 hover:shadow-[0px_0px_64px_0px_#B000004D] hover:before:h-56 hover:before:w-56">
                                     <span className="relative z-10 text-nowrap">Choose your plan</span>
                                 </button>
@@ -49,7 +49,7 @@ const Premium = () => {
                             <h2 className='text-4xl  leading:[76.5px] md:text-[64px] font-poppins font-bold text-[#2E2E2E] lg:max-w-[608px] md:leading-[77.5px] text-center lg:text-start pt-4'>Real Stories from Real Customers</h2>
                             <p className=' font-inter text-[#808080] text-[16px] font-normal lg:max-w-[408px] md:pt-10 pt-5 text-center lg:text-start'>Blazing fast web hosting for individuals and businesses of all sizes backed by 24x7x365 Support.</p>
                             <div className=' flex gap-5 md:pt-14 pt-8 max-lg:justify-center'>
-                                <button className='text-white sm:text-[14px] text-[13px]  text-nowrap font-normal font-poppins p-[12px] rounded-[8px] bg-[#B00000] shadow-[0px_0px_64px_0px_#B000004D]'>Create an Account</button>
+                                <button className='text-white sm:text-[14px] text-[13px]  text-nowrap font-normal font-poppins p-[13px] rounded-[8px] bg-[#B00000] shadow-[0px_0px_64px_0px_#B000004D]'>Create an Account</button>
                                 <button className="relative flex h-[50px] w-40 items-center justify-center overflow-hidden font-poppins sm:text-[14px] text-[13px]  font-normal text-black p-[12px] rounded-[8px] border-[1px] border-solid border-[#000000]  transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#B00000] hover:border-[transparent] before:duration-500 before:ease-out hover:text-[white] hover:border-0 hover:shadow-[0px_0px_64px_0px_#B000004D] hover:before:h-56 hover:before:w-56">
                                     <span className="relative z-10 text-nowrap">Choose your plan</span>
                                 </button>
