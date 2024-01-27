@@ -8,14 +8,16 @@ import Backtotop from '../components/Backtotp';
 
 function News() {
   return (
-      <div>
-          <Navsec/>
-          <Timemap />
-          <Lamon />
-          <Stories />
-          <Footersec />
-          <Backtotop/>
-      
+    <div>
+      <Navsec />
+      <Timemap />
+      <Lamon />
+      <Stories />
+      <div className='pt-12'>
+        <Footersec />
+      </div>
+      <Backtotop />
+
     </div>
   )
 }

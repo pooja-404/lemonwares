@@ -19,35 +19,22 @@ const Hosting = () => {
                     <div className='lg:w-1/2 w-full px-3 pt-7 md:mt-12 mt-8 lg:mt-0'>
                         <div className='flex flex-wrap flex-row -mx-3'>
                             <div className='w-1/3 px-3 flex items-center justify-center text-center'>
-                                <div className='max-w-[172px] h-[92px] '>
-                                    <img src={cpanel} alt="cpanel"data-aos="flip-up" />
-                                </div>
+                                <img src={cpanel} alt="cpanel" data-aos="flip-up" />
                             </div>
                             <div className='w-1/3 px-3 flex items-center justify-center text-center'>
-                                <div className='max-w-[172px] h-[92px] '>
-                                    <img src={imufy} alt="imufy"data-aos="flip-up" />
-                                </div>
+                                <img src={imufy} alt="imufy" className=' lg:h-[56px] ' data-aos="flip-up" />
                             </div>
                             <div className='w-1/3 px-3 flex items-center justify-center text-center'>
-                                <div className='max-w-[172px] h-[92px] '>
-                                    <img src={lite} alt="litespeed"data-aos="flip-up" />
-                                </div>
+                                <img src={lite} alt="litespeed" data-aos="flip-up" />
                             </div>
                             <div className='w-1/3 px-3 flex items-center justify-center text-center'>
-                                <div className='max-w-[172px] h-[92px] '>
-                                    <img src={softa} alt="softa" className='pt-4'data-aos="flip-down" />
-                                </div>
+                                <img src={softa} alt="softa" className='pt-4' data-aos="flip-down" />
                             </div>
                             <div className='w-1/3 px-3 flex items-center justify-center text-center'>
-                                <div className='max-w-[172px] h-[92px] '>
-                                    <img src={wordpress} alt="wordpress" className='pt-4'data-aos="flip-down" />
-                                </div>
+                                <img src={wordpress} alt="wordpress" className='pt-4' data-aos="flip-down" />
                             </div>
                             <div className='w-1/3 px-3 flex items-center justify-center text-center'>
-                                <div className='max-w-[172px] h-[92px] '>
-                                    <img src={cloud} alt="cloud" className='pt-4'data-aos="flip-down" />
-                                </div>
-
+                                <img src={cloud} alt="cloud" className='pt-4' data-aos="flip-down" />
                             </div>
 
                         </div>
